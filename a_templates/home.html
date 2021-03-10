@@ -1,0 +1,13 @@
+<html>
+<head>
+  <title>Input Page</title>
+</head>
+<body>
+  <h2>Hello~~</h2>
+  <p>{{hello}}<p>
+  <form action="{% url 'countnickname' %}">
+      <!-- equals to <form action = "count"> -->
+      <textarea cols="40" rows="5" name="fulltext"></textarea>
+      <input type="submit" value="Submit!" />
+</body>
+</html>
